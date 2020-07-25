@@ -1,0 +1,93 @@
+/*
+    Theme Name: Stefanov_tema 
+    Theme URI: https://it-akademija.com/
+    Author: Stefan Dimitrijević
+    Author URI: https://it-akademija.com/
+    Description: My first WordPress theme.
+    Text Domain: stefanovtema
+    Version: 1.0.0
+    License: GNU General Public License v2 or later
+    */
+
+    body {
+    	margin: 0;
+    	padding: 0;
+    	font-family: Arial, Arial, sans-serif;
+    	color: #352;
+    	font-size: 20px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+    	color: #020;
+    	text-transform: uppercase;
+    	margin: 1em 0;
+    }
+    h1 { font-size: 30px;}
+    h2 { font-size: 30px;}
+    h3 { font-size: 26px;}
+    h4 { font-size: 20px;}
+    h5 { font-size: 18px;}
+    h6 { font-size: 16px;}
+    p { margin: 0.5em 0;}
+    img {
+    	vertical-align: bottom;
+    }
+    a, a:link, a:visited {
+    	color: #970b16;
+    	text-decoration: none;
+    }
+    a:hover {
+    	color: #F10;
+    }
+    a:active {
+    	color: #577;
+    }
+    .site-header {
+    	background: #AEE;
+    	padding: 30px;
+    	border-bottom: 3px solid #990b16;
+    }
+    .site-nav {
+    	background: #233;
+    }
+    .site-nav ul {
+    	margin: 0;
+    	padding: 0;
+    	list-style: none;
+    }
+    .site-nav ul li {
+    	display: inline-block;
+    }
+    .site-nav ul li a {
+    	display: block;
+    	padding: 20px;
+    	font-weight: bold;
+    }
+    .site-nav ul li a:link,
+    .site-nav ul li a:visited {
+    	color: #FFF;
+    	text-decoration: none;
+    }
+    .site-nav ul li a:hover {
+    	background: rgba(0,0,0,0.4);
+    }
+    .site-nav ul li a:active {
+    	color: #AAA;
+    	background: rgba(1,0,0,0.6);
+    }
+    .central {
+    	padding: 50px 20px;
+    }
+    .site-footer {
+    	background: #444;
+    	color: #FFF;
+    	text-align: center;
+    	font-size: 13px;
+    	padding: 20px;
+    	border-top: 3px solid #990b16;
+    }
+    .container {
+    	margin: 0 auto;
+    	width: 1200px;
+    }
+
+
